@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lecture.css">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8505550afa.js" crossorigin="anonymous"></script>
+    <title>StudentHelper.com</title>
+</head>
+<style>
+    .payment_method{
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        transform: translateX(-50%);
+    }
+    .method_container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+</style>
+<body>
+    <div class="navbar navbar1">
+        <div class="logo"><img src="img/logo1.png" alt=""></div>
+        <ul class="nav_links" id="nav_Id">
+            <li><a href="index.html">HOME</a> </li>
+            <li><a href="notes.php">NOTES</a></li>
+            <li><a href="dress.php">DRESS</a></li>
+            <li><a href="grocries">GROCRIES</a></li>
+            <li><a href="shop.php">SHOPING</a></li>
+        </ul>
+        <div class="menu imageClass">
+            <i class="fa-solid fa-bars" id="menu"></i>
+        </div>
+    </div>
+    <input type="text">
+    <div class="method_container">
+        <div class="payment_method">
+            <h2>Choose Payment Method</h2>
+            <button class="btn"><a href="billing.php">Cash On Delivery</a></button>
+            <button class="btn" id><a href="razorpay.php">Pay Online</a></button>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/8505550afa.js" crossorigin="anonymous"></script>
+    <script src="js/app2.js"></script>
+</body>
+
+</html>

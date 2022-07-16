@@ -1,0 +1,452 @@
+.shopcard {
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px;
+    border: none;
+    box-shadow: 5px 10px 10px 5px rgb(83, 82, 82);
+    border-radius: 5px;
+    position: relative;
+    top: 90px;
+}
+
+.columnshop {
+    display: flex;
+    justify-content: center;
+}
+
+.btnshop {
+    background-color: rgb(214, 42, 42);
+}
+
+.btnshop:hover {
+    background-color: rgb(255, 65, 65);
+}
+
+.sideshop {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 1;
+}
+
+.shopsidebtn {
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(165, 102, 102);
+}
+
+.shopsidebtn:hover {
+    background-color: rgb(181, 52, 52);
+    cursor: pointer;
+}
+
+.cycle {
+    height: 30vh;
+}
+
+.shopsidebtn img {
+    height: 25px;
+}
+
+.sidetab0{
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab1 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab2 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab3 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab4 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab5 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab6 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab7 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab8 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab9 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab10 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab11 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab12 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab13 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab14 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab15 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab16 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab17 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab18 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.sidetab19 {
+    display: none;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    top: 58%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: aquamarine;
+}
+
+.crosstab {
+    position: fixed;
+    left: 94%;
+    top: 2%;
+    z-index: 1;
+    cursor: pointer;
+    color: grey;
+}
+
+.crosstab:hover {
+    color: black;
+}
+
+@media(max-width: 1450px) {
+    .shopcard {
+        width: 200px;
+        min-height: 400px;
+        /* margin: 15px 15px; */
+        position: relative;
+        top: 70px;
+    }
+
+    .shopcard img {
+        height: 180px;
+        width: 175px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .shopcard {
+        width: 150px;
+        min-height: 300px;
+        margin: 15px 15px;
+        position: relative;
+        top: 70px;
+    }
+
+    .shopcard img {
+        height: 150px;
+        width: 130px;
+    }
+}
+
+@media(max-width: 950px) {
+    .columnshop {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .shopcard {
+        width: 250px;
+        min-height: 400px;
+        margin: 10px 10px;
+        position: relative;
+        top: 70px;
+    }
+
+    .sidetab {
+        width: 60%;
+    }
+
+    .sidetab1 {
+        width: 60%;
+    }
+
+    .sidetab2 {
+        width: 60%;
+    }
+
+    .sidetab3 {
+        width: 60%;
+    }
+
+    .sidetab4 {
+        width: 60%;
+    }
+
+    .sidetab5 {
+        width: 60%;
+    }
+
+    .sidetab6 {
+        width: 60%;
+    }
+
+    .sidetab7 {
+        width: 60%;
+    }
+
+    .sidetab8 {
+        width: 60%;
+    }
+
+    .sidetab9 {
+        width: 60%;
+    }
+
+    .sidetab10 {
+        width: 60%;
+    }
+
+    .sidetab11 {
+        width: 60%;
+    }
+
+    .sidetab12 {
+        width: 60%;
+    }
+
+    .sidetab13 {
+        width: 60%;
+    }
+
+    .sidetab14 {
+        width: 60%;
+    }
+
+    .sidetab15 {
+        width: 60%;
+    }
+
+    .sidetab16 {
+        width: 60%;
+    }
+
+    .sidetab17 {
+        width: 60%;
+    }
+
+    .sidetab18 {
+        width: 60%;
+    }
+
+    .sidetab19 {
+        width: 60%;
+    }
+}
+
+@media(max-width: 300px) {
+    .shopcard {
+        width: 200px;
+        min-height: 400px;
+        margin: 10px 10px;
+        position: relative;
+        top: 20px;
+    }
+
+    .shopcard img {
+        height: 180px;
+        width: 175px;
+    }
+}

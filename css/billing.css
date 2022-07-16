@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Radio+Canada:wght@400;500&family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Radio Canada', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.formstyle{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    border-radius: 8px;
+    margin: auto;
+    width: 70%;
+    height: 20vh;
+}
+.formcontainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.billingheadline{
+    display: flex;
+    justify-content: center;
+    color: rgb(70, 70, 142);
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+.formback{
+    background-color: rgb(158, 158, 155);
+    width: 50%;
+    border-radius: 10px;
+    min-height: 100vh;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 5px grey;
+    position: relative;
+    top: 20px;
+}
+.forminput{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+    color: white;
+    margin: 10px;
+}
+form label{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.forminput input{
+    width: 70%;
+    border-radius: 10px;
+    outline: none;
+}
+.billbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.billbtn p{
+    margin: 10px;
+}
+
+@media(max-width: 950px){
+    .formback{
+        width: 70%;
+        min-height: 85vh;
+        outline: none;
+        border: none;
+        box-shadow: 5px 5px 5px grey;
+        position: relative;
+        top: 20px;
+    }
+    .formstyle{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 10px;
+        border-radius: 8px;
+        margin: auto;
+    }
+    .billingheadline{
+        font-size: 25px;
+    }
+    .forminput{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 10%;
+        color: white;
+        margin: 10px;
+    }
+    .forminput input{
+        width: 100%;
+        margin: 10px;
+        padding: px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    .billbtn{
+        margin: 2px;
+    }
+}
+@media(max-width: 768px){
+    .billbtn{
+        flex-direction: column;
+    }
+    .cash{
+        margin: 5px;
+    }
+    .billingheadline{
+        font-size: 20px;
+    }
+    .forminput{
+        left: 0;
+    }
+}
+@media(max-width: 450px){
+    
+    .billingheadline{
+        font-size: 15px;
+    }
+}

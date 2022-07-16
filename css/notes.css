@@ -1,0 +1,64 @@
+.notecontaniner{
+    width: 100%;
+    min-height: 200vh;
+    /* margin: 120px; */
+}
+.notes{
+    min-height: 100vh;
+    position: relative;
+    top: 70px;
+}
+
+.chemisty{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+.physics{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+.noteHedading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btncol{
+    display: flex;
+    flex-direction: column;
+}
+.btnnotes{
+    padding: 8px 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.btnnotes a{
+    text-decoration: none;
+    color: white;
+}
+
+.btnnotes:hover{
+    background-color: rgb(50, 50, 193);
+    cursor: pointer;
+}
+@media(max-width: 950px){
+    .noteHedading{
+        font-size: 25px;
+    }
+    .chemisty{
+        width: 60%;
+    }
+    .physics{
+        width: 60%;
+    }
+}
